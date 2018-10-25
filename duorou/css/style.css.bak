@@ -1,0 +1,97 @@
+/*********************头部样式**********/
+header{
+    height: 483px;
+    background: url(../img/h-bg.png) no-repeat;
+    background-size:cover;
+}
+header>ul{
+    display: flex;
+    height: 63px;
+    background-color:rgba(0,0,0,.3) ;
+    font-size:16px ;
+    line-height: 63px;
+}
+
+header>ul li:first-child {
+    margin-left: 435px;
+}
+header>ul li{
+    margin-right:30px ;
+}
+
+/*****family样式*****/
+.family{
+    background-color: #fff;
+}
+section div.contain{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contain div.title{
+    position: relative;
+    width: 1200px;
+    margin-top: 30px;
+}
+.contain .title h4{
+    text-align: center;
+    font-size: 18px;
+}
+.contain .title h4 b{
+    display: block;
+    width:45%;
+    border:2px solid #abcc47;
+    position: absolute;
+    top: 10px;
+}
+.contain .title h4 .b2{
+    right:0px;
+}
+.contain .title p{
+    text-align: center;
+    margin: 10px auto;
+    color: #abcc47;
+    font:26px "黑体" ;
+}
+.intro{
+    padding-bottom: 50px;
+}
+.intro dl{
+    display: flex;
+}
+.intro dl:nth-child(2){
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.intro dl img{
+    width: 360px;
+    margin: 10px;
+}
+.intro dl dd{
+    width: 550px;
+    margin: 60px 0 100px 120px;
+    font-size: 24px;
+}
+.intro dl dd span{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/********album样式********/
+.album .content{
+    display: flex;
+}
+.album .content .left>li>img{
+    width: 450px;
+    height: 250px;
+}
+.album .content .left .left-bottom{
+    display: flex;
+}
+.album .content .left .left-bottom ul>li>img:first-child{
+    width: 220px;
+    height: 165px;
+}
+.album .content .left .left-bottom li ul li img:last-child{
+    width:220px;
+    height: 200px;
+}

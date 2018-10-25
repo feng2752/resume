@@ -1,0 +1,196 @@
+/*********************头部样式**********/
+header{
+    height: 483px;
+    background: url(../img/h-bg.png) no-repeat;
+    background-size:cover;
+    margin-top:0;
+}
+header>ul{
+    display: flex;
+    height: 63px;
+    background-color:rgba(0,0,0,.3) ;
+    font-size:16px ;
+    line-height: 63px;
+}
+
+header>ul li:first-child {
+    margin-left: 435px;
+}
+header>ul li{
+    margin-right:30px ;
+}
+
+/*****family样式*****/
+.family{
+    background-color: #fff;
+}
+section div.contain{
+    width:1200px;
+    margin: 0 auto;
+}
+.contain div.title{
+    position: relative;
+    width: 1200px;
+}
+.contain .title h4{
+    text-align: center;
+    font-size: 18px;
+}
+.contain .title h4 b{
+    display: block;
+    width:45%;
+    border:2px solid #abcc47;
+    position: absolute;
+    top: 10px;
+}
+.contain .title h4 .b2{
+    right:0px;
+}
+.contain .title p{
+    text-align: center;
+    margin: 10px auto 50px;
+    color: #abcc47;
+    font:26px "黑体" ;
+}
+.intro{
+    padding-bottom: 50px;
+}
+.intro dl{
+    display: flex;
+}
+.intro dl:nth-child(2){
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.intro dl img{
+    width: 360px;
+    margin: 10px;
+}
+.intro dl dd{
+    width: 550px;
+    margin: 60px 0 100px 120px;
+    font-size: 24px;
+}
+.intro dl dd span{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/********album样式********/
+.album{
+    background-color: #97b658;
+}
+.album .content{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.album .content li{
+    display: block;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+.album .content .left>li>img{
+    width: 450px;
+    height: 250px;
+
+}
+.album .content .left .left-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.album .content .left .left-bottom ul>li>img:first-child{
+    width: 220px;
+    height: 165px;
+}
+.album .content .left .left-bottom li ul li .img2{
+    width:220px;
+    height: 193px;
+}
+.album .contain .left .left-bottom>li>img{
+    width: 215px;
+    height: 371px;
+}
+
+.album .content .middle li:first-child img{
+    height: 415px;
+    width: 100%;
+}
+.album .content .middle li:last-child img{
+    width: 100%;
+    height: 210px;
+}
+
+.album .content .right li img{
+    width: 100%;
+}
+.album .content .right li:last-child img ,.album .content .right li:first-child img{
+    height: 176px;
+}
+
+/*********show 样式***********/
+.show{
+    background-color: #fff;
+}
+.show .top ,.worth .top{
+    display: flex;
+    margin-bottom: 20px;
+}
+.show ul li {
+    width: 25%;
+
+}
+.show ul li dl dt{
+    height: 230px;
+    width:230px;
+    margin:10px auto;
+    overflow: hidden;
+
+}
+.show ul li dl dt img{
+    width: 100%;
+}
+.show ul li dl dd{
+    width: 80%;
+    margin: 0 auto;
+}
+.show .bottom,.worth .bottom{
+    display: flex;
+}
+
+/**********worth样式**************/
+.worth{
+    background-color: #97b658;
+}
+.worth ul  {
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.worth ul li{
+    width: 25%;
+    margin: 0 42px 60px 0;
+
+}
+.worth ul li:last-child{
+    margin-right: 0px;
+}
+.worth ul li dl dd{
+    text-align: justify;
+    margin-top:15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.worth ul li dl img{
+    width: 100%;
+}
+/*******footer*********/
+footer{
+    padding:30px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #aeaeae;
+}
